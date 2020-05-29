@@ -1,11 +1,9 @@
 name: GitHub Spellcheck Action 
 
-on:
-  pull_request:
-    types: [opened, labeled]
+on: [push, pull_request]
 
 jobs:
-  spell-check:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: GitHub Spellcheck Action 
