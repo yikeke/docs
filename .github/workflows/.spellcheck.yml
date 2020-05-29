@@ -3,29 +3,10 @@ name: GitHub Spellcheck Action
 on:
   pull_request:
     types: [opened, labeled]
-env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   spell-check:
     runs-on: ubuntu-latest
-    name: GitHub Spellcheck Action 
     steps:
-    - name: GitHub Spellcheck Action 
-      uses: rojopolis/spellcheck-github-actions@0.4.0
-      aspell:
-        lang: en
-      dictionary:
-        wordlists:
-        - .wordlist.txt
-        encoding: utf-8
-      pipeline:
-      - pyspelling.filters.markdown:
-      - pyspelling.filters.html:
-        comments: false
-        ignores:
-        - code
-        - pre
-      sources:
-      - '**/*.md'
-      default_encoding: utf-8
+      - name: GitHub Spellcheck Action 
+        uses: rojopolis/spellcheck-github-actions@0.4.0

@@ -1,4 +1,4 @@
-name: Assign to Project
+name: Assign to Project 
 
 on:
   issues:
