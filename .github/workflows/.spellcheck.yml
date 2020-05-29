@@ -3,7 +3,7 @@ name: GitHub Spellcheck Action
 on: [push]
 
 jobs:
-  build:
+  spell-check:
     runs-on: ubuntu-latest
     steps:
       - name: GitHub Spellcheck Action 
