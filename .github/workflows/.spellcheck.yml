@@ -1,4 +1,4 @@
-name: Markdown spell check
+name: GitHub Spellcheck Action 
 
 on:
   pull_request:
