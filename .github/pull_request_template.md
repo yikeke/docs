@@ -2,7 +2,7 @@
 
 ### What is changed, added or deleted? (Required)
 
-<!--Tell us what you did and why. This is important to help reviewers and community members understand your PR.-->
+<!--Tell us what you did and why.-->
 
 ### Which TiDB version(s) do your changes apply to? (Required)
 
@@ -18,7 +18,7 @@
 
 ### What is the related PR or file link(s)?
 
-<!--Give us some reference link(s) that might help quickly review and merge your PR, for example, a file link that supports why you changed the document.-->
+<!--Give us some reference link(s) that might help quickly review and merge your PR.-->
 
-- This PR is translated from:<!--Give links here-->
-- Other reference link(s):<!--Give links here-->
+- This PR is translated from:
+- Other reference link(s):
