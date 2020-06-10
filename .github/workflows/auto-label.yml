@@ -1,8 +1,11 @@
 name: Auto Label
 on:
+  push:
+    branches:
+      - github-action-test
   pull_request:
-    paths:
-    - '**.md'
+    branches:
+      - github-action-test
 
 jobs:
   auto-label:
