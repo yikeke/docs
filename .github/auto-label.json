@@ -1,5 +1,6 @@
 {
     "rules": {
-      "translation/welcome": ["*.md"]
+      "translation/welcome": ["*.md"],
+      "PTAL": ["**"]
     }
 }
