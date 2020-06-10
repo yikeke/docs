@@ -1,11 +1,9 @@
 name: Auto Label
 on:
-  push:
-    branches:
-      - github-action-test
   pull_request:
-    branches:
-      - github-action-test
+    tags-ignore:
+      - '**-cherry-pick'
+      - 'translation/**'
 
 jobs:
   auto-label:
