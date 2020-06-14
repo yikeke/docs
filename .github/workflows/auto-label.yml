@@ -1,4 +1,4 @@
-name: Github actions
+name: Auto Label
 on:
   pull_request:
     types: [opened, labeled]
