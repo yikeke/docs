@@ -1,7 +1,7 @@
 name: Auto Label
 on:
   pull_request:
-    types: [opened]
+    types: [opened, labeled]
 
 jobs:
   auto-label:
@@ -10,9 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: banyan/auto-label@1.2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: shufo/auto-assign-reviewer-by-files@v1.0.0
       with:
         config: '.github/assign-by-files.yml'
-        token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
