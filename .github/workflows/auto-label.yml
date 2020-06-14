@@ -12,3 +12,11 @@ jobs:
       - uses: banyan/auto-label@1.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  auto-assign-reviewers:
+    name: Auto assign reviewers
+    runs-on: ubuntu-latest
+    steps:
+      - uses: shufo/auto-assign-reviewer-by-files@v1.0.0
+      with:
+        config: '.github/assign-by-files.yml'
+        token: ${{ secrets.GITHUB_TOKEN }}
