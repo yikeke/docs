@@ -71,6 +71,7 @@ Designed for the cloud, TiDB provides flexible scalability, reliability and secu
 - [Monitoring Framework](/tidb-monitoring-framework.md)
 - [Monitoring API](/tidb-monitoring-api.md)
 - [Deploy Monitoring Services](/deploy-monitoring-services.md)
+- [Export Grafana Snapshots](/exporting-grafana-snapshots.md)
 - [Alert Rules and Solutions](/alert-rules.md)
 - [TiFlash Alert Rules and Solutions](/tiflash/tiflash-alert-rules.md)
 
@@ -81,6 +82,7 @@ Designed for the cloud, TiDB provides flexible scalability, reliability and secu
 
 - [TiDB Troubleshooting Map](/tidb-troubleshooting-map.md)
 - [Identify Slow Queries](/identify-slow-queries.md)
+- [Analyze Slow Queries](/analyze-slow-queries.md)
 - [SQL Diagnostics](/information-schema/information-schema-sql-diagnostics.md)
 - [Troubleshoot Hotspot Issues](/troubleshoot-hot-spot-issues.md)
 - [Troubleshoot the TiDB Cluster](/troubleshoot-tidb-cluster.md)

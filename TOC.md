@@ -82,11 +82,13 @@
   + [Monitoring Framework Overview](/tidb-monitoring-framework.md)
   + [Monitoring API](/tidb-monitoring-api.md)
   + [Deploy Monitoring Services](/deploy-monitoring-services.md)
+  + [Export Grafana Snapshots](/exporting-grafana-snapshots.md)
   + [TiDB Cluster Alert Rules](/alert-rules.md)
   + [TiFlash Alert Rules](/tiflash/tiflash-alert-rules.md)
 + Troubleshoot
   + [TiDB Troubleshooting Map](/tidb-troubleshooting-map.md)
   + [Identify Slow Queries](/identify-slow-queries.md)
+  + [Analyze Slow Queries](/analyze-slow-queries.md)
   + [SQL Diagnostics](/information-schema/information-schema-sql-diagnostics.md)
   + [Identify Expensive Queries](/identify-expensive-queries.md)
   + [Statement Summary Tables](/statement-summary-tables.md)
